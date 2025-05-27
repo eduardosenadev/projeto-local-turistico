@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #1b1b1b;
+  max-width: 1280px;
+  margin: 80px auto;
+}
+
+.page {
+  background-color: #f5f4f0;
+  padding: 40px 80px 20px;
+}
+
+.page section img {
+  border-radius: 28px;
+  width: 100%;
+}
+
+section {
+  margin-top: 48px;
+}
+
+.section-primary {
+  margin-bottom: 40px;
+}
+
+.section-primary-tag {
+  text-transform: uppercase;
+  color: #e1624f;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.section-primary h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1b1b1b;
+  margin-bottom: 40px;
+}
+
+
+.section-primary-p {
+  color: #333;
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.section-history {
+  padding: 16px 0 40px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+h2 {
+  font-size: 32px;
+  color: #1b1b1b;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+p {
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.section-history-haedong {
+  margin-top: 64px;
+}
+
+.section-history-haedong li, .section-history-beomeo li {
+  color: #0c51a7;
+
+}
+
+ul {
+  padding-left: 28px;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333;
+}
+
+span {
+  padding-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.couples {
+  color: #591b98;
+}
+
+.family {
+  color: #e5245e;
+}
+
+.budget {
+  color: #e95e10;
+}
+
+.description {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+footer {
+  padding: 40px 40px 60px;
+  text-align: center;
+  background-color: #f5f4f0;
+}
+
+footer img{
+  vertical-align: middle;
+}
